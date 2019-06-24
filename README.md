@@ -6,6 +6,7 @@ Library for hardware SN74HC595N SN74HC595 74HC595N 74HC595 DIP-16 Shift Register
 
 # Download
 [ShiftRegister595.zip](https://github.com/radomirmazon/ShiftRegister595/blob/master/ShiftRegister595.zip)
+[Library instalation for Arduino IDE](https://www.arduino.cc/en/Guide/Libraries)
 
 # Install
 ```C
