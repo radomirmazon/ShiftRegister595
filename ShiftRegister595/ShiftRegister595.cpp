@@ -57,7 +57,7 @@ void ShiftRegister595::update() {
     uint8_t toSend = buff[i];
     for (byte bi=0; bi<8; bi++) {
       digitalWrite(clockPin, LOW);
-      digitalWrite(dataPin, ((toSend>>(bi)) & 1) > 0);
+      digitalWrite(dataPin, (toSend>>bi) & 1);
       digitalWrite(clockPin, HIGH);
       digitalWrite(dataPin, LOW);
     }
